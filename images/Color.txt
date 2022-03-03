@@ -1,0 +1,2 @@
+Primary Color: #1d4ed8
+Secondery Color : #0284c7
