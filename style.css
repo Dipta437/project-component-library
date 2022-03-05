@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
+/* Colors */
+
 :root{
     --primary-color:#1d4ed8;
     --off-white: #d1d5db;
@@ -12,18 +14,21 @@ body{
 }
 
 hr{
-    margin: 2rem;
+    margin: 2rem 0rem;
 }
 
+/* Containers */
 .container{
-    margin: 1rem 1rem;
+    margin: 1.5rem 1.5rem;
 }
 .center-container{
     max-width: 650px;
     margin: auto;
 }
 
+/* Links */
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -38,4 +43,60 @@ hr{
     border-radius: 1.5rem;
     color: var(--secondery-color);
     max-width: 140px;
+}
+
+/* Lists */
+.list{
+    list-style: none;
+}
+
+.list .non-bullet-list{
+    text-decoration: none;
+}
+.inline-list-item{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+/* navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    vertical-align: middle;
+}
+.navigation li .link{
+    color: white;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+/* hero header */
+.hero  {
+    padding: 2rem;
+    padding-top: 2rem;
+}
+.hero .hero-img{
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero-header{
+    text-align: center;
+}
+/* sections */
+.section{
+    padding: 1.5rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow-section{
+    background-color: var(--off-white);
+    border-radius: 1.5rem;
 }
