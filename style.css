@@ -75,6 +75,9 @@ hr{
 .navigation .nav-brand{
     font-weight: bold;
 }
+.navigation .active-link{
+    font-weight: bold;
+}
 nav{
     display: block;
 }
