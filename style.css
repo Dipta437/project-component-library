@@ -30,17 +30,19 @@ hr{
 .link{
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 .primary-link{
     background-color: var(--primary-color);
     color: white;
     max-width: 140px;
+    padding: 0.5rem 1rem;
     border-radius: 1.5rem;
 }
 .secondery-link{
     border: 1px solid var(--primary-color);
     border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
     color: var(--secondery-color);
     max-width: 140px;
 }
