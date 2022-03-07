@@ -102,6 +102,7 @@ nav{
 .ow-section{
     background-color: var(--off-white);
     border-radius: 1.5rem;
+    padding: 1.5rem;
 }
 /* Footer */
 .footer-section{
