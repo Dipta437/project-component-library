@@ -93,11 +93,18 @@ nav{
     margin: auto;
 }
 .hero-header{
+    margin-bottom: 2rem;
     text-align: center;
+    color: gray;
+}
+.inverted-header{
+    color: var(--primary-color);
 }
 /* sections */
 .section{
-    padding: 1.5rem;
+    padding: 2rem;
+    margin: 2rem 0rem;
+    text-align: center;
 }
 .section h1{
     text-align: center;
@@ -106,6 +113,7 @@ nav{
     background-color: var(--off-white);
     border-radius: 1.5rem;
     padding: 1.5rem;
+    margin-top: 1.5rem ;
 }
 /* Footer */
 .footer-section{
